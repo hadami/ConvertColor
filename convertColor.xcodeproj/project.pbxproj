@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE566C041D9DF8D6001805C8 /* convertColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE566C031D9DF8D6001805C8 /* convertColor.swift */; };
 		BE8D94731D9D21BC004955FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D94721D9D21BC004955FC /* AppDelegate.swift */; };
 		BE8D94751D9D21BC004955FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8D94741D9D21BC004955FC /* ViewController.swift */; };
 		BE8D94781D9D21BC004955FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8D94761D9D21BC004955FC /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE566C031D9DF8D6001805C8 /* convertColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = convertColor.swift; sourceTree = "<group>"; };
 		BE8D946F1D9D21BC004955FC /* convertColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convertColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8D94721D9D21BC004955FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE8D94741D9D21BC004955FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				BE8D94791D9D21BC004955FC /* Assets.xcassets */,
 				BE8D947B1D9D21BC004955FC /* LaunchScreen.storyboard */,
 				BE8D947E1D9D21BC004955FC /* Info.plist */,
+				BE566C031D9DF8D6001805C8 /* convertColor.swift */,
 			);
 			path = convertColor;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8D94751D9D21BC004955FC /* ViewController.swift in Sources */,
+				BE566C041D9DF8D6001805C8 /* convertColor.swift in Sources */,
 				BE8D94731D9D21BC004955FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = convertColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chloe.convertColor;
@@ -424,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = convertColor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chloe.convertColor;
@@ -505,6 +511,7 @@
 				BE8D94991D9D21BC004955FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE8D949A1D9D21BC004955FC /* Build configuration list for PBXNativeTarget "convertColorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				BE8D949C1D9D21BC004955FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE8D949D1D9D21BC004955FC /* Build configuration list for PBXNativeTarget "convertColorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				BE8D949F1D9D21BC004955FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

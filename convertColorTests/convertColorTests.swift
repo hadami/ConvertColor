@@ -33,4 +33,21 @@ class convertColorTests: XCTestCase {
         }
     }
     
+    func testGetColor()  {
+        let color: convertColorModel = convertColorModel()
+        
+        let red = 10
+        let green = 10
+        let blue = 10
+        
+        color.setData(red: red, green: green, blue: blue)
+        assert(color.red == red && color.green == green && color.blue == blue)
+        
+        let validate: Bool = color.checkValidation()
+        assert(validate)
+    }
+    
+//    func testValidColorValue() {
+//        
+//    }
 }
